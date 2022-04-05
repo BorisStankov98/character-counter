@@ -1,0 +1,26 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 40px;
+}
+#letters>div{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#letters{
+    display: flex;
+    flex-wrap: wrap;
+}
